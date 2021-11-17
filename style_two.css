@@ -1,0 +1,126 @@
+body{
+    background-image: repeating-radial-gradient(black, red 10%, yellow 15%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color:black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+ 
+a:active{
+    color: green;
+    text-decoration: none;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    background-color: crimson;
+    width:100%;
+}
+header nav{
+    text-align:left;
+}
+
+header nav li{
+    display: inline;
+    margin: 0px 10px 0px 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2{
+    text-align: center;
+    color:gold;
+    text-shadow: 2px 2px black;
+    font-family: cursive;
+}
+h2{
+    font-family: 'Pacifico', cursive !important;
+}
+
+main{
+    z-index: 0;
+    position: relative;
+    top: 150px;
+}
+main nav{
+    background-color: crimson;
+    height: 50px;
+}
+main nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.menu-grid{
+    height: 600px;
+    width: 100%;
+    border: black solid 3px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    background-image: linear-gradient(red, yellow);;
+}
+.menu-grid *{
+    border: black solid 3px;
+}
+.description{
+    height: fit-content;
+    padding:5px;
+    background-color: khaki;
+    font-family: 'Oswald', sans-serif;
+}
+.p-container{
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+.menu-grid input{
+    height: fit-content;
+    padding:5px;
+    background-color: khaki;
+    width: 30px;
+    border: none !important;
+}
+figure{
+    background-color:black;
+}
+figcaption{
+    background-color: khaki;
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.pricing{
+    height:80px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border:none;
+    
+}
+label{
+    height: fit-content;
+    width: fit-content;
+    background-color:khaki;
+    border: none;
+}

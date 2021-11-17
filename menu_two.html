@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daimo Menu</title>
+    <link rel="stylesheet" href="style_two.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="javascript_2.js" defer></script>
+
+    <!--fonts from google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>DAIMO MENU</h1>
+        <nav><ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul></nav>
+    </header>
+        <main>
+        <nav id="menu-nav">
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#entrees">Entrees</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+                <li><button id="checkout">Checkout</button></li>
+            </ul>
+        </nav>
+    
+
+    <section class="menu-container" id="appetizers">
+        <h2>Appetizers</h2>
+        <div class = "menu-grid">
+            <figure><img src="" alt=""><figcaption>Asian Pork</figcaption></figure>
+           <div class="p-container"><p class = 'description'>A very attractive looking pork chop</p></div>
+           <div class="pricing">
+            <input type="number" id="pork" placeholder="0" data-value=10>
+            <label for="pork">$10.00</label>
+            </div>
+
+            <figure><img src="" alt=""><figcaption></figcaption></figure>
+            <div class="p-container"><p class = 'description'>Green Beens Done the Right Way</p></div>
+            <div class="pricing">
+                <input type="number" id="" placeholder="0" value="">
+                <label for=""></label>
+                </div>
+
+                <figure><img src="resources/menu-items/How-to-Make-Sticky-Rice-500x375.jpg">
+                    <figcaption>Sticky Rice</figcaption>
+                </figure>
+            <div class="p-container"><p class = 'description'>Some Very Fine Shrimp Indeed</p></div>
+            <div class="pricing">
+                <input type="number" id="" placeholder="0" value="">
+                <label for=""></label>
+                </div>
+
+                <figure><img src="resources/menu-items/fragrant-beef-curry-with-rice.jpg">
+                    <figcaption>Beef Curry</figcaption>
+                </figure>
+            <div class="p-container"><p class = 'description'>A very attractive looking curry chop</p></div>
+            <div class="pricing">
+                <input type="number" id="beef-curry" placeholder="0" data-value=10>
+                <label for="beef-curry"></label>
+                </div>
+
+           
+        </div>
+    </section>
+
+    <section id="entrees" class="menu-container" id="appetizers">
+        <h2>Entrees</h2>
+
+        <div class = "menu-grid">
+            <figure><img src="resources/menu-items/chicken_on_stick.jpg">
+                <figcaption>Chicken On Sticks</figcaption></figure>
+            <p class = 'description'>Sweet chicken  on sticks</p>
+           <div class="pricing">
+            <input type="number" id="chicken-stick" placeholder="0" data-value=6>
+            <label for="chicken-stick">$6.00</label>
+            </div>
+
+            <figure><img src="resources/menu-items/potstickers.jpeg">
+                <figcaption>Pork Potstickers</figcaption>
+            </figure>
+            <p class = 'description'>These are In Fact the Best dumplings You Will Ever Have</p>
+            <div class="pricing">
+                <input type="number" id="potsticker" placeholder="0" data-value=5>
+                <label for="potsticker"> $5.00</label>
+                </div>
+
+                <figure><img src="resources/menu-items/Peking-duck.jpg">
+                    <figcaption>Peking Duck</figcaption>
+                </figure>
+            <p class = 'description'>A Duck Worth Dying For</p>
+            <div class="pricing">
+                <input type="number" id="duck" placeholder="0" data-value=20>
+                <label for="duck">$20.00</label>
+                </div>
+
+                <figure><img src="resources/menu-items/chicken_chow_mein.jpg">
+                    <figcaption>Chicken Chow Mein</figcaption>
+                </figure>
+            <p class = 'description'></p>
+           <div class="pricing">
+            <input type="number" id="chow-mein" placeholder="0" data-value=10>
+            <label for="chow-mein">$10.00</label>
+            </div>
+
+          
+        </div>
+    </section>
+
+    <section id = "drinks" class="menu-container" id="appetizers">
+        <h2>Drinks</h2>
+
+        <div class = "menu-grid">
+            <figure><img src="resources/menu-items/cola.jpeg">
+                <figcaption>Coka Cola</figcaption>
+            </figure>
+            <p class = 'description'></p>
+           <div class="pricing">
+            <input type="number" id="coca-cola" placeholder="0" data-value=2>
+            <label for="coca-cola">$2.00</label>
+            </div>
+
+            <figure><img src="resources/menu-items/sprite.jpeg">
+                <figcaption>Sprite</figcaption>
+            </figure>
+            <p class = 'description'></p>
+            <div class="pricing">
+                <input type="number" id="sprite" placeholder="0" data-value=2>
+                <label for="sprite">$2.00</label>
+                </div>
+
+                <figure><img src="resources/menu-items/sapporo-sapporo-22ozc.jpg">
+                    <figcaption>Sapporo Beer</figcaption>
+                </figure>
+            <p class = 'description'></p>
+            <div class="pricing">
+                <input type="number" id="sapporo" placeholder="0" data-value=5>
+                <label for="sapporo">$5.00</label>
+                </div>
+
+            <figure><img src="" alt=""><figcaption></figcaption></figure>
+            <p class = 'description'></p>
+            <div class="pricing">
+                <input type="number" id="" placeholder="0" value="">
+                <label for=""></label>
+                </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

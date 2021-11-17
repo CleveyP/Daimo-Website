@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--fonts-->
+        <script src="https://kit.fontawesome.com/42c95b8374.js" crossorigin="anonymous"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+        
+        <!--meta and title-->
+        
+            <title>Daimo Menu</title>
+            <meta name="author" content="Cleveland Plonsey">
+            <meta name="view-port" content="width= device-width initial-scale= 1.0">
+        
+            <!--style-->
+        
+            <link href="styles.css" rel="stylesheet" type="text/css">
+        
+        </head>
+        
+        
+        <body style="background-color: lightyellow;">
+            <div id="overlay"></div>
+            <div id="menu-section">
+        <header>
+            <h1><i class="fas fa-biohazard"></i></i> DAIMO    MENU</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html"><i class="fas fa-home"></i>   Home</a></li>
+                    <li><a href="#"><i class="fas fa-utensils"></i>    Menu</a></li>
+                    <li><a href="contact.html"><i class="far fa-address-book"></i>    Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="menu-nav">
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#entrees">Entrees</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+                <li><button id="check-out">Check Out</button></li>
+            </ul>
+        </nav>
+        <section id="daily-special">
+            <h2>Special of the day</h2>
+            <div  class="menu-item" id="special-div" data-value="">
+                <figure><img id="special-img" src="">
+                    <figcaption id="special-caption"></figcaption>
+                </figure>
+                <p class="description" id="special-p"></p>
+                    <input type="number" value="qty.">
+                    <button class="submit" id="special-btn" class="submit" data-value="">submit quantity</button>
+            </div>
+        </section>
+        <main >
+
+             <!--appetizers-->
+            <section id="appetizers">
+                <h3>Appetizers</h3>
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/chicken_on_stick.jpg">
+                        <figcaption>Chicken On Sticks</figcaption>
+                    </figure>
+
+                    <p class="description">Thai inspired chicken on sticks (3 pieces)<br>
+                    $7.00</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="7">submit quantity</button>
+                </div>
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/potstickers.jpeg">
+                        <figcaption>Pork Potstickers</figcaption>
+                    </figure>
+
+                    <p class="description">Ancient chinese dumpling (6 pieces)<br>
+                    $7.00 </p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="7">submit quantity</button>
+                </div>
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/How-to-Make-Sticky-Rice-500x375.jpg">
+                        <figcaption>Sticky Rice</figcaption>
+                    </figure>
+
+                    <p class="description">Thai inspired sticky Rice<br>
+                    $2.00</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="2">submit quantity</button>
+                </div>
+            </section>
+
+            <!--entrees-->
+            <section id="entrees">
+                <h3>Entrees</h3>
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/Peking-duck.jpg">
+                        <figcaption>Peking Duck</figcaption>
+                    </figure>
+
+                    <p class="description">One half tea leaf smoked duck<br>
+                    $20.00</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="20">submit quantity</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/fragrant-beef-curry-with-rice.jpg">
+                        <figcaption>Beef Curry</figcaption>
+                    </figure>
+
+                    <p class="description">Panang Beef Curry. <br>Ask our 
+                        chef how spicy to make it<br>
+                    $12.00</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="12">submit quantity</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/chicken_chow_mein.jpg">
+                        <figcaption>Chicken Chow Mein</figcaption>
+                    </figure>
+
+                    <p class="description">Try our take on this classic chinese dish<br>
+                    $10.00</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="10">submit quantity</button>
+                </div>
+            </section>
+
+            <!--desserts-->
+            <section id="desserts">
+                <h3>Desserts</h3>
+                <div class="menu-item">
+                    <figure><img src="">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <p class="description">peking pork</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="">submit quantity</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <figure><img src="">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <p class="description">peking pork</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="">submit quantity</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <figure><img src="">
+                        <figcaption></figcaption>
+                    </figure>
+
+                    <p class="description">peking pork</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="">submit quantity</button>
+                </div>
+            </section>
+
+             <!--drinks-->
+             <section id="drinks">
+                <h3>Drinks</h3>
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/cola.jpeg">
+                        <figcaption>Coka Cola</figcaption>
+                    </figure>
+
+                    <p class="description">Coka-Cola<br>$1.50</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="1.5">submit quantity</button>
+                </div>
+
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/sprite.jpeg">
+                        <figcaption>Sprite</figcaption>
+                    </figure>
+
+                    <p class="description">Sprite soda<br>$1.50</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="1.5">submit quantity</button>
+                </div>
+                
+                <div class="menu-item">
+                    <figure><img src="resources/menu-items/sapporo-sapporo-22ozc.jpg">
+                        <figcaption>Sapporo Beer</figcaption>
+                    </figure>
+
+                    <p class="description">Have your I.D ready<br>$5.00</p>
+                    
+                    <input type="number" value="qty.">
+                    <button class="submit" data-value="5">submit quantity</button>
+                </div>
+            </section>
+        </main>
+        </div>
+        <footer>
+            <h5>See You Soon...</h5>
+            <address>daimojapan@gmail.com</address>
+            <p>(510) 562 - 3212</p>
+        </footer>
+
+        <!-- display receipt section-->
+        <div id="receipt-container" class="hidden">
+        <section id="receipt-section" class="slider ">
+            <h3>Check Out</h3>
+            <div id="receipt-area"></div>
+            <h4>Your total is: <span></span></h4>
+            <button id="back-to-menu-button">Return to Menu</button>
+        </section>
+        </div>
+        </body>
+        <script src="javascript.js"></script>
+    </html>
